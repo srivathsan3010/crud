@@ -55,8 +55,7 @@ public class Earpods extends HttpServlet
 					int num=rs.getInt(2);
 					int n=num*quantity;
 					
-					 out.println("<html> <body bgcolor='grey' >" +"Your order of "+brand+" "+"gadget worth"+" " + n +"is added to cart,for confirmation click"+" <a href=./order.html> order </a> </body> </html>"); 
-					 
+					 out.println("<html> <body bgcolor='grey' >" +"Your order of  "+brand+" "+"gadget worth"+"" + n +""+"is added to cart,for confirmation click"+" <a href=./order.html> order </a> </body> </html>"); 
 					
 				}
 				else
