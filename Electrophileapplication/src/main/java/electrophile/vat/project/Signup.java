@@ -24,7 +24,7 @@ public class Signup extends HttpServlet {
 		System.out.println("values entered");
 		PrintWriter out=res.getWriter();
 		
-		out.println("<html> <body>"+""+"hi"+" "+username+"! Click here to"+""+"<a href=./index.html>login</a>"+""+"</body> </html>");
+		out.println("<html> <body>"+""+"hi"+" "+username+"! Click here to"+" "+"<a href=./index.html>login</a>"+""+"</body> </html>");
 		out.close();
 		//PESRISTANCE LOGIC
 		
@@ -43,8 +43,8 @@ public class Signup extends HttpServlet {
 			
 			ps=con.prepareStatement(qry);
 			
-			ps.setString(1,username);
-			ps.setString(2,password);
+			ps.setString(1,password);
+			ps.setString(2,username);
 			ps.setString(3, dob);
 			ps.setString(4,mail);
 			ps.setString(5,mobileno);

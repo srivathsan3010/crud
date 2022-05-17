@@ -24,7 +24,7 @@ public class Orderconfirmation extends HttpServlet
 		String address=req.getParameter("ad");
 		
 		PrintWriter out=res.getWriter();
-		out.println("<html> <body bgcolor='grey'>"+"Hurray!! your order is confirmed , Thank you,for using electrophile, Hope you enjoyed our service"+"click to purchase again" +"<a href=./signup.html>grab more</a> "+""+"have a great day!"+"</body> </html>");
+		out.println("<html> <body bgcolor='grey'>"+"Hooray!! your order is confirmed , Thank you,for using electrophile, Hope you enjoyed our service"+" "+"click to purchase again"+" " +"<a href=./homepage.html>grab more</a> "+" "+"have a great day!"+"</body> </html>");
 		
 		//PESRISTANCE LOGIC
 		
