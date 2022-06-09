@@ -6,11 +6,11 @@ their desired products from the Predefined Product table (backend). Finally, acq
 confirmed order table.
 
 
-PROGRAMMING LANGUAGE USED: JAVA, J2EE.
-BACKEND DATABASE: MySQL.
-WEB TECHNOLOGY: HTML & Basic internal CSS Properties.
-TOOLS: ECLIPSE IDE, SQL YOG & MICROSOFT VISUAL STUDIO CODE.
-SERVER: APACHE TOMCAT 9.0 (Local host)
+PROGRAMMING LANGUAGE USED: JAVA, J2EE;
+BACKEND DATABASE: MySQL;
+WEB TECHNOLOGY: HTML & Basic internal CSS Properties;
+TOOLS: ECLIPSE IDE, SQL YOG & MICROSOFT VISUAL STUDIO CODE;
+SERVER: APACHE TOMCAT 9.0 (Local host).
 
 
 -Developed the user-interface of website using HTML & internal CSS properties (enclosing sign-up page, 
